@@ -61,7 +61,7 @@ public class Principal {
                     break;
                 case 2:
                     converte.setConverte_moeda(moedas[opMoeda]);
-                    System.out.println("Moeda selecionada: " + converte.getBase_moeda());
+                    System.out.println("Moeda selecionada: " + converte.getConverte_moeda());
                     break;
             }
         }
