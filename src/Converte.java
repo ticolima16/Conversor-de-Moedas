@@ -10,9 +10,8 @@ public class Converte {
     }
 
     public double converter(double valor) throws IOException, InterruptedException {
-        Double cotacao = new Cotacaoes()
-            .buscarMoedas(getBase_moeda())
-            .get(getConverte_moeda());
+        Double cotacao = new Cotacaoes().buscarMoedas(getBase_moeda()).get(getConverte_moeda());
+        double v;
         return valor * cotacao;
 
     }
