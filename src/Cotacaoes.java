@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 import java.util.Map;
 
 public class Cotacaoes {
-    private String api = "SUA_API_KEY";
+    private String api = "API_KEY_AQUI";
 
 
     public Map<String, Double> buscarMoedas(String base_letras) throws IOException, InterruptedException {
@@ -18,10 +18,16 @@ public class Cotacaoes {
                 .uri(URI.create(url))
                 .build();
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+        if (response.statusCode() != 404) {
+            Gson gson = new GsonBuilder().create();
+            Moedas cotacaoes = gson.fromJson(response.body(), Moedas.class);
+            return cotacaoes.conversion_rates();
 
-        Gson gson = new GsonBuilder().create();
-        Moedas cotacaoes = gson.fromJson(response.body(), Moedas.class);
-        return cotacaoes.conversion_rates();
+        }else {
+            System.out.println("Erro ao conectar API.");
+            return null;
+        }
+
 
     }
 
