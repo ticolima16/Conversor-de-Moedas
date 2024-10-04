@@ -10,8 +10,15 @@ public class Converte {
     }
 
     public double converter(double valor) throws IOException, InterruptedException {
-        Double cotacao = new Cotacaoes().buscarMoedas(getBase_moeda()).get(getConverte_moeda());
-        return valor * cotacao;
+        Cotacaoes cotacao = new Cotacaoes();
+        if (cotacao.buscarMoedas(getBase_moeda(), getConverte_moeda()) != null) {
+            double res = cotacao.buscarMoedas(getBase_moeda(), getConverte_moeda());
+            return valor * res;
+        }else {
+            System.out.println("########################################################");
+            System.out.println("################# Erro ao conectar API. ################");
+            return 0;
+        }
 
     }
 

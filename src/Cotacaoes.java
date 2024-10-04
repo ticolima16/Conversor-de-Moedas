@@ -5,13 +5,12 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.util.Map;
 
 public class Cotacaoes {
-    private String api = "API_KEY_AQUI";
+    private String api = "76184f28560b31d7cd38b8e5";
 
 
-    public Map<String, Double> buscarMoedas(String base_letras) throws IOException, InterruptedException {
+    public Double buscarMoedas(String base_letras, String converte_letras) throws IOException, InterruptedException {
         String url = "https://v6.exchangerate-api.com/v6/"+api+"/latest/"+ base_letras;
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
@@ -21,10 +20,9 @@ public class Cotacaoes {
         if (response.statusCode() != 404) {
             Gson gson = new GsonBuilder().create();
             Moedas cotacaoes = gson.fromJson(response.body(), Moedas.class);
-            return cotacaoes.conversion_rates();
+            return cotacaoes.conversion_rates().get(converte_letras);
 
         }else {
-            System.out.println("Erro ao conectar API.");
             return null;
         }
 

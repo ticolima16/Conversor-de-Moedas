@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a8bca9d-8e17-43d6-a442-58a1e972eb90" name="Changes" comment="Atualizacoes">
+    <list default="true" id="0a8bca9d-8e17-43d6-a442-58a1e972eb90" name="Changes" comment="Validando API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Converte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Converte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cotacaoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cotacaoes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Moedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moedas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -115,7 +116,39 @@
       <option name="project" value="LOCAL" />
       <updated>1728002649484</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Atualizacoes">
+      <option name="closed" value="true" />
+      <created>1728045916862</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728045916862</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Atualizacoes">
+      <option name="closed" value="true" />
+      <created>1728045947080</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728045947080</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Atualizacoes">
+      <option name="closed" value="true" />
+      <created>1728046020023</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728046020023</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Atualizacoes">
+      <option name="closed" value="true" />
+      <created>1728046034531</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728046034531</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,7 +166,8 @@
     <MESSAGE value="Commit" />
     <MESSAGE value="." />
     <MESSAGE value="Atualizacoes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualizacoes" />
+    <MESSAGE value="Validando API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validando API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
