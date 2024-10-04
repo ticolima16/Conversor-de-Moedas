@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a8bca9d-8e17-43d6-a442-58a1e972eb90" name="Changes" comment="tirando API_KEY">
+    <list default="true" id="0a8bca9d-8e17-43d6-a442-58a1e972eb90" name="Changes" comment="validando moeda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cotacaoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cotacaoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728046940789</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="validando moeda">
+      <option name="closed" value="true" />
+      <created>1728048413376</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728048413376</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,7 +208,8 @@
     <MESSAGE value="Atualizacoes" />
     <MESSAGE value="Validando API" />
     <MESSAGE value="tirando API_KEY" />
-    <option name="LAST_COMMIT_MESSAGE" value="tirando API_KEY" />
+    <MESSAGE value="validando moeda" />
+    <option name="LAST_COMMIT_MESSAGE" value="validando moeda" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -51,7 +51,7 @@ public class Principal {
         }
     }
     public static void contarMoeda(int opMoeda, String[]moedas, Converte converte, int op){
-        if (opMoeda > moedas.length){
+        if (opMoeda >= moedas.length){
             System.out.println("Moeda invalida!");
         }else {
             switch (op) {
