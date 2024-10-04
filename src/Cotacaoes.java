@@ -7,7 +7,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class Cotacaoes {
-    private String api = "76184f28560b31d7cd38b8e5";
+    private String api = "SUA_API_KEY_AQUI";
 
 
     public Double buscarMoedas(String base_letras, String converte_letras) throws IOException, InterruptedException {
