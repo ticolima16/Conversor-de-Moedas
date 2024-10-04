@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a8bca9d-8e17-43d6-a442-58a1e972eb90" name="Changes" comment="Validando API">
+    <list default="true" id="0a8bca9d-8e17-43d6-a442-58a1e972eb90" name="Changes" comment="tirando API_KEY">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cotacaoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cotacaoes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +163,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728046849665</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Validando API">
+      <option name="closed" value="true" />
+      <created>1728046915401</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728046915401</updated>
+    </task>
+    <task id="LOCAL-00014" summary="tirando API_KEY">
+      <option name="closed" value="true" />
+      <created>1728046940789</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728046940789</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,7 +198,8 @@
     <MESSAGE value="." />
     <MESSAGE value="Atualizacoes" />
     <MESSAGE value="Validando API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validando API" />
+    <MESSAGE value="tirando API_KEY" />
+    <option name="LAST_COMMIT_MESSAGE" value="tirando API_KEY" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -20,7 +20,12 @@ public class Cotacaoes {
         if (response.statusCode() != 404) {
             Gson gson = new GsonBuilder().create();
             Moedas cotacaoes = gson.fromJson(response.body(), Moedas.class);
-            return cotacaoes.conversion_rates().get(converte_letras);
+            if(cotacaoes.result().equals("success")) {
+                return cotacaoes.conversion_rates().get(converte_letras);
+            }else {
+                System.out.println("moeda invalida");
+                return null;
+            }
 
         }else {
             return null;
