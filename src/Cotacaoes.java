@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 import java.util.Map;
 
 public class Cotacaoes {
-    private String api = "SUA_APY_KEY";
+    private String api = "SUA_API_KEY";
 
 
     public Map<String, Double> buscarMoedas(String base_letras) throws IOException, InterruptedException {
